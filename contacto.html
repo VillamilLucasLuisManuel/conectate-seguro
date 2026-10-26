@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Página de contacto de Conéctate Seguro.">
+  <title>Conéctate Seguro | Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Conéctate Seguro, página de inicio"><span class="brand-mark">CS</span><span>Conéctate<br><strong>Seguro</strong></span></a>
+    <nav aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="solucion.html">Solución</a><a class="active" href="contacto.html">Contacto</a></nav>
+    <a class="nav-cta" href="solucion.html">Ver la guía <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="contenido">
+    <section class="contact-hero" aria-labelledby="contacto-title">
+      <div><p class="eyebrow"><span class="pulse"></span> CONTACTO</p><h1 id="contacto-title">Preguntar también<br>es <em>protegerse.</em></h1><p>Si algo en internet te parece extraño, no tienes que resolverlo sin apoyo. Cuéntanos tu duda.</p></div>
+      <aside class="help-card"><span>?</span><h2>Regla rápida</h2><p>Si te genera presión o duda, detente antes de hacer clic.</p></aside>
+    </section>
+
+    <section class="form-section" aria-labelledby="form-title">
+      <div class="form-intro"><p class="section-number">03 / CONTACTO</p><h2 id="form-title">Escribe tu mensaje</h2><p>Este formulario es solo una demostración escolar: no envía ni guarda datos.</p></div>
+      <form action="#" method="post" onsubmit="return false;">
+        <label for="nombre">Tu nombre <span>(opcional)</span></label>
+        <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre">
+        <label for="tema">¿Sobre qué tienes duda?</label>
+        <select id="tema" name="tema"><option>Contraseñas y acceso</option><option>Mensajes o enlaces sospechosos</option><option>Privacidad en redes</option><option>Otro tema</option></select>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe la situación sin compartir contraseñas, códigos ni datos privados."></textarea>
+        <button class="button primary" type="submit">Enviar mensaje <span aria-hidden="true">→</span></button>
+      </form>
+    </section>
+
+    <section class="notice" aria-label="Aviso de privacidad"><span aria-hidden="true">✦</span><p><strong>Cuida tu información:</strong> nunca escribas tu contraseña, código de verificación, dirección o datos bancarios en formularios o chats.</p></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-left"><a class="brand footer-brand" href="index.html"><span class="brand-mark">CS</span><span>Conéctate<br><strong>Seguro</strong></span></a><p>© 2026 Conéctate Seguro. Todos los derechos reservados.</p><p class="author">AUTOR: VILLAMIL LUCAS LUIS MANUEL</p></div>
+    <div class="social-links" aria-label="Redes sociales"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram">IG</a><a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Abrir X">𝕏</a></div>
+  </footer>
+</body>
+</html>

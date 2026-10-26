@@ -1,0 +1,11 @@
+<svg width="580" height="560" viewBox="0 0 580 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="290" cy="280" r="225" stroke="#167A91" stroke-width="2" stroke-dasharray="7 12" opacity=".55"/>
+  <circle cx="290" cy="280" r="184" fill="#F7F9FB"/>
+  <path d="M290 92L428 142V265C428 354 369 430 290 468C211 430 152 354 152 265V142L290 92Z" fill="#0E1726"/>
+  <path d="M290 116L405 157V263C405 337 358 401 290 437C222 401 175 337 175 263V157L290 116Z" fill="#1D4ED8"/>
+  <path d="M259 286L282 309L328 249" stroke="#D3F36B" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="123" cy="143" r="14" fill="#FF7C64"/><circle cx="461" cy="121" r="10" fill="#D3F36B"/><circle cx="479" cy="378" r="13" fill="#39E7DF"/>
+  <path d="M136 152L184 189M447 130L399 178M466 368L417 340" stroke="#0E1726" stroke-width="3"/>
+  <rect x="79" y="277" width="76" height="30" rx="15" fill="#F7F9FB" stroke="#0E1726" stroke-width="2"/><text x="94" y="297" fill="#0E1726" font-family="monospace" font-size="12">HTTPS</text>
+  <rect x="392" y="299" width="99" height="30" rx="15" fill="#F7F9FB" stroke="#0E1726" stroke-width="2"/><text x="407" y="319" fill="#0E1726" font-family="monospace" font-size="12">2 PASOS</text>
+</svg>
